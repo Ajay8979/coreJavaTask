@@ -1,0 +1,15 @@
+package com.ojas.question25;
+
+public class Container {
+	private	String number;
+	private	Float containerWeight;
+	private	Commodity[] commodities;
+	public Container(String number, Float containerWeight, Commodity[] commodities) {
+		super();
+		this.number = number;
+		this.containerWeight = containerWeight;
+		this.commodities = commodities;
+	}
+	
+
+}

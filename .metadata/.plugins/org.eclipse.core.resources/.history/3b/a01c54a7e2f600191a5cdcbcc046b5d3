@@ -1,0 +1,32 @@
+package com.ojas.question4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class CompanyBO {
+	public void displayCompanyDetails(Company[] companies) {
+			
+	}
+	
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter the number of companies:");
+		int n = Integer.valueOf(reader.readLine());
+		int i=1;
+		while(i<=n) {
+			System.out.println("Enter the company "+i+" details :");
+			System.out.println("Enter company id :");
+			Company c = new Company();
+			c.setIdentifier(reader.readLine());
+			System.out.println("Enter the company's IATA code :");
+			c.setIata(reader.readLine());
+			System.out.println("Enter the company's FMC code :");
+			c.setFmc(reader.readLine());
+			Address address = new Address();
+			System.out.println("Enter the company's state :");
+			address.setState(reader.readLine());
+			System.out.println("Enter the company's country :");
+		}
+	}
+}

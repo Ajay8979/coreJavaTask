@@ -1,0 +1,21 @@
+package com.ojas.question18;
+
+public class CustomerShipment extends Shipment {
+	private 	Double referalFee;
+
+	public Double getReferalFee() {
+		return referalFee;
+	}
+
+	public void setReferalFee(Double referalFee) {
+		this.referalFee = referalFee;
+	}
+
+	public CustomerShipment(String name, Double weight, Integer quantity, Double transferCost,
+			Double maxShipmentCapacity, Double referalFee) {
+		super(name, weight, quantity, transferCost, maxShipmentCapacity);
+		this.referalFee = referalFee;
+	}
+	
+	
+}

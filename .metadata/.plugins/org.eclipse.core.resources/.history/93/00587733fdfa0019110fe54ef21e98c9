@@ -1,0 +1,11 @@
+package com.ojas.question25;
+
+public class ContainerOverloadedException extends Exception {
+	int a;
+
+	public ContainerOverloadedException() {
+		super();
+	}
+	
+	
+}

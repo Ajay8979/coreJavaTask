@@ -1,0 +1,48 @@
+package com.ojas.question1;
+
+public class Cargo {
+	private	String name;
+	private String description;
+	private Double width;
+	private Double length;
+	@Override
+	public String toString() {
+		return "The cargo details are:\r\n" + 
+				"Name : " +name +
+				"Description : "+description +
+				"Length : " + length+
+				"Width : " + width;
+				
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Double getWidth() {
+		return width;
+	}
+	public void setWidth(Double width) {
+		this.width = width;
+	}
+	public Double getLength() {
+		return length;
+	}
+	public void setLength(Double length) {
+		this.length = length;
+	}
+	public Cargo() {
+		super();
+	}
+	
+	
+	
+
+}

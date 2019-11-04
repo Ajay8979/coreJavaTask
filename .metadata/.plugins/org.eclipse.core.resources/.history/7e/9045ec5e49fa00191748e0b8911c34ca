@@ -1,0 +1,14 @@
+package com.ojas.question18;
+
+public class CompanyShipment extends Shipment {
+	private Integer tax;
+
+	public Integer getTax() {
+		return tax;
+	}
+
+	public void setTax(Integer tax) {
+		this.tax = tax;
+	}
+	
+}

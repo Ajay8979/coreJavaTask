@@ -1,0 +1,9 @@
+package com.ojas.question25;
+
+public class ShipmentBO {
+	
+	
+	public void validate(Container container, Commodity[]commodity) {
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.ojas.question5;
+
+public class Privilege {
+	private String name;
+	
+}

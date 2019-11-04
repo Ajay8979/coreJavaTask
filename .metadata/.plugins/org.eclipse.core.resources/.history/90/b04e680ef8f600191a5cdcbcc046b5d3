@@ -1,0 +1,12 @@
+package com.ojas.question7;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class ModeOfTransportation {
+	public static void main(String[] args) {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter number of ports :");
+		int n = Integer.valueOf(reader.readLine());
+	}
+}

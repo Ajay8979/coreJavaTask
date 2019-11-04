@@ -1,0 +1,11 @@
+package com.ojas.question17;
+
+public abstract class WaterCarrier {
+	private String carrierName;
+	private String carrierCode;
+	private String carrierType;
+	private	String iataCode;
+	private	String carrierAddress;
+
+
+}

@@ -1,0 +1,44 @@
+package com.ojas.question7;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ModeOfTransportation {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter number of ports :");
+		int n = Integer.valueOf(reader.readLine());
+		int i=1;
+		System.out.println("");
+		String[] output= new String[n];
+		String[] input =new String[n];
+		int l=0;
+		while(i<=n) {
+			String  st = reader.readLine();
+			input[k++] = st;
+					
+			/*
+			 * int count = 0; for(int j=2;j<s.length;j++) { if(s[j].equals("1")); count++;
+			 * 
+			 * if(count>1) { output[k++]= String.format("%-5s%s\n",s[0], s[1]); } }
+			 */
+		}
+		
+		for(int j=0;j<n;j++) {
+			String [] values = input[j].split("|");
+			int count=0;
+			for(int k=2;k<values.length;k++) {
+				if(values[k].equals("1")) {
+					count++;
+					if(count>1) {
+						output[l++]=input[j];
+					}
+					
+				}
+			}
+		}
+		System.out.println(String.format("%-5s %s\n","id", "name"));
+		for()
+	}
+}

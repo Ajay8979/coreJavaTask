@@ -1,0 +1,7 @@
+package com.ojas.question25;
+
+public class Commodity {
+	private String commodityId;
+	private	Float totalWeight;
+	private	Integer quantity;
+}

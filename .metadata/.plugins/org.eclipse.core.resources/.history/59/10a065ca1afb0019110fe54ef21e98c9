@@ -1,0 +1,5 @@
+package com.ojas.question20;
+
+public interface IExportData {
+
+}

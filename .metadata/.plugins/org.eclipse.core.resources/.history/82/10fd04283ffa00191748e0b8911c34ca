@@ -1,0 +1,15 @@
+package com.ojas.question17;
+
+public class ContainerShips extends WaterCarrier {
+	private Integer noOfContainers;
+
+	public Integer getNoOfContainers() {
+		return noOfContainers;
+	}
+
+	public void setNoOfContainers(Integer noOfContainers) {
+		this.noOfContainers = noOfContainers;
+	}
+	
+	
+}

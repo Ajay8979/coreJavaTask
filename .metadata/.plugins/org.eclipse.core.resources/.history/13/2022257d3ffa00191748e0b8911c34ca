@@ -1,0 +1,7 @@
+package com.ojas.question17;
+
+public class Ferries  extends WaterCarrier{
+	private	Integer maxLoad;
+	
+	
+}

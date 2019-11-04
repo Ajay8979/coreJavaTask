@@ -1,0 +1,6 @@
+package com.ojas.question16;
+
+public class GroundTransport  extends Shipment{
+	private String capacity;
+	
+}

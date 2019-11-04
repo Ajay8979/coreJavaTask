@@ -1,0 +1,12 @@
+package com.ojas.question16;
+
+public class Rail extends GroundTransport {
+	private int numberOfContainer;
+
+	public Rail(int id, String customerName, String arrivalPort, String departurePort, float weight, String capacity,
+			int numberOfContainer) {
+		super(id, customerName, arrivalPort, departurePort, weight, capacity);
+		this.numberOfContainer = numberOfContainer;
+	}
+	
+}

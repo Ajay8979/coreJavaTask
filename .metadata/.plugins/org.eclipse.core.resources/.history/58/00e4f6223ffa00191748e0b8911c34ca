@@ -1,0 +1,5 @@
+package com.ojas.question17;
+
+public class ContainerShips extends WaterCarrier {
+	
+}

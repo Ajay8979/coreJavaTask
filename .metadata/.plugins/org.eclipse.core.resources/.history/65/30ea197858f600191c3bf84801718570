@@ -1,0 +1,17 @@
+package com.ojas.question1;
+
+import java.util.Scanner;
+
+public class Question1 {
+	public static void main(String[] args) {
+		Cargo cargo = new Cargo();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the cargo details:");
+		System.out.println("Enter the name");
+		String s =scanner.next();
+		cargo.setName(s);
+		System.out.println("Enter the description");
+		cargo.setDescription(scanner.next());
+		
+	}
+}

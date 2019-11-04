@@ -1,0 +1,13 @@
+package com.ojas.question16;
+
+public class AirTransport extends Shipment{
+	public AirTransport(int id, String customerName, String arrivalPort,
+			String departurePort, float weight,String airways) {
+		super(id, customerName, arrivalPort, departurePort, weight);
+		// TODO Auto-generated constructor stub
+	}
+
+	private String airwaysName;
+	
+
+}

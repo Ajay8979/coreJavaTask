@@ -1,0 +1,17 @@
+package com.ojas.question25;
+
+public class ShipmentBO {
+	
+	
+	public void validate(Container container, Commodity[]commodity) {
+		float capaity = 0;
+		int i=0;
+		for(Commodity c    : commodity) {
+			i++;
+			capaity = capaity+c.getQuantity()*c.getTotalWeight();
+			if(capaity>container.getContainerWeight()) {
+				if(i==container.getCommodities().length)
+			}
+		}
+	}
+}

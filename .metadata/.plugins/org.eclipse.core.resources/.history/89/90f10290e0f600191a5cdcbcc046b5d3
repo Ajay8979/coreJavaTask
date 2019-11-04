@@ -1,0 +1,7 @@
+package com.ojas.question4;
+
+public class CompanyBO {
+	public void displayCompanyDetails(Company[] companies) {
+		
+	}
+}

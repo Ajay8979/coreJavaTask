@@ -1,0 +1,19 @@
+package com.ojas.question15;
+
+public class Agent  extends ShipmentEntity{
+	private	    String name;
+	private	    String iata;
+	private	    String fmc;
+	@Override
+	public String toString() {
+		return "Agent [name=" + name + ", iata=" + iata + ", fmc=" + fmc + "]";
+	}
+	public Agent(String name, String iata, String fmc) {
+		super();
+		this.name = name;
+		this.iata = iata;
+		this.fmc = fmc;
+	} 
+	
+	
+}

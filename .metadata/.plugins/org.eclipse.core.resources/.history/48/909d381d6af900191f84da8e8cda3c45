@@ -1,0 +1,7 @@
+package com.ojas.question15;
+
+public class Carrier extends ShipmentEntity {
+	private	  String carrierCode;
+	private	  String iata;
+
+}

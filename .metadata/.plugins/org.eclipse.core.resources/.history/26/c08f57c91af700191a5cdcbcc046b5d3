@@ -1,0 +1,21 @@
+package com.ojas.question9;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
+import java.io.BufferedReader;
+
+public class Question9 {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader reader  = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter the number of cargo");
+		int n = Integer.valueOf(reader.readLine());
+		String[][] cargos  = new String[2][n];
+		for(int j=0;j<n;j++) {
+			cargos[1][j]=reader.readLine();
+		}
+		System.out.println("Enter the number of shipment");
+		
+	}
+}

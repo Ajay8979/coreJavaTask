@@ -1,0 +1,12 @@
+package com.ojas.question16;
+
+public class BulkCarrier extends WaterTransport {
+		private String companyName;
+
+		public BulkCarrier(int id, String customerName, String arrivalPort, String departurePort, float weight,
+				String capacity, String companyName) {
+			super(id, customerName, arrivalPort, departurePort, weight, capacity);
+			this.companyName = companyName;
+		}
+		
+}

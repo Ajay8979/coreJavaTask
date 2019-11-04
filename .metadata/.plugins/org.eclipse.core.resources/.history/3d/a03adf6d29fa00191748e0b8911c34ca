@@ -1,0 +1,16 @@
+package com.ojas.question16;
+
+public class AirTransport extends Shipment{
+	
+
+	private String airwaysName;
+
+	public AirTransport(int id, String customerName, String arrivalPort, String departurePort, float weight,
+			String airwaysName) {
+		super(id, customerName, arrivalPort, departurePort, weight);
+		this.airwaysName = airwaysName;
+	}
+	
+	
+
+}

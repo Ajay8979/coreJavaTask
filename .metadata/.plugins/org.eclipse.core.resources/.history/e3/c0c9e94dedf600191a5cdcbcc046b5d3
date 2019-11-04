@@ -1,0 +1,52 @@
+package com.ojas.question5;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+public class RoleBo {
+	static ArrayList<Role> roleList = new ArrayList<Role>();
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter number of role :");
+		int n = Integer.valueOf(reader.readLine());
+		int i=1;
+		while(i<=n) {
+			System.out.println("Enter the role "+i+" details :");
+			System.out.println("Enter role name :");
+			Role role  = new Role();
+			role.setName(reader.readLine());
+			System.out.println("Enter description :");
+			role.setDescription(reader.readLine());
+			System.out.println("Enter the privileges :");
+			
+			String pri = reader.readLine();
+			String s [] = pri.split(",");
+			Privilege[] pr = new Privilege[s.length];
+			System.out.println(pr.length);
+			for (int j = 0; j < s.length; j++) {
+			//	Privilege p = new Privilege();
+				System.out.println(s[j]);
+				p.setName(s[j]);
+				pr[j]=p;	
+			}
+			role.setPrivilege(pr);
+			roleList.add(role);
+			i++;
+		}
+		int big= 0;
+		String role="";
+		for(Role r : roleList) {
+			if(big<=r.getPrivilege().length) {
+				if(big==r.privilege.length)
+					role = role+r.getName();
+				else
+				 role = r.getName();
+				big = r.getPrivilege().length;
+			}
+		}
+		System.out.println("Role names which has more number of privileges :");
+		System.out.println(role);
+	}
+}

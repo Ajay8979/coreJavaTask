@@ -1,0 +1,8 @@
+package com.ojas.question25;
+
+public class Container {
+	private	String number;
+	private	Float containerWeight;
+	private	Commodity[] commodities;
+
+}

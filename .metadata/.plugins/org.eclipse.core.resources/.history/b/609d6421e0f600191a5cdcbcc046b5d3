@@ -1,0 +1,8 @@
+package com.ojas.question4;
+
+public class Company {
+	String identifier;
+	String iata ;
+	String fmc;
+	Address address;
+}

@@ -1,0 +1,6 @@
+package com.ojas.question15;
+
+public class Customer extends ShipmentEntity {
+	private int id;
+	private String name;
+}

@@ -1,0 +1,9 @@
+package com.ojas.question25;
+
+public class ContainerOverloadedException extends RuntimeException {
+
+	public ContainerOverloadedException(String message) {
+
+		super(message);
+	}
+}

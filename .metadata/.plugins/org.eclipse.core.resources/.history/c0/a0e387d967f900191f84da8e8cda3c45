@@ -1,0 +1,16 @@
+package com.ojas.question15;
+
+public class ShipmentEntity {
+	private String shipmentEntityName;
+	private String identificationNumber;
+	@Override
+	public String toString() {
+		return "ShipmentEntity [shipmentEntityName=" + shipmentEntityName + ", identificationNumber="
+				+ identificationNumber + "]";
+	}
+	public ShipmentEntity() {
+		super();
+	}
+	
+
+}

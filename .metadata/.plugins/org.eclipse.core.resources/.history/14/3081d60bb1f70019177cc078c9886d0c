@@ -1,0 +1,15 @@
+package com.ojas.question10;
+
+import java.util.Scanner;
+
+public class Question10 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter no of ports");
+		int ports = sc.nextInt();
+		int i=0;
+		while(i<ports) {
+			
+		}
+	}
+}

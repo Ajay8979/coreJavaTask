@@ -1,0 +1,14 @@
+package com.ojas.question25;
+
+public class ContainerOverloadedException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public ContainerOverloadedException(String message) {
+
+		super(message);
+	}
+}

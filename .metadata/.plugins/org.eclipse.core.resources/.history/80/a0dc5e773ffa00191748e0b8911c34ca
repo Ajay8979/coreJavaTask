@@ -1,0 +1,19 @@
+package com.ojas.question17;
+
+public class Ferries {
+	private	Integer maxLoad;
+
+	public Integer getMaxLoad() {
+		return maxLoad;
+	}
+
+	public void setMaxLoad(Integer maxLoad) {
+		this.maxLoad = maxLoad;
+	}
+
+	public Ferries(Integer maxLoad) {
+		super();
+		this.maxLoad = maxLoad;
+	}
+	
+}

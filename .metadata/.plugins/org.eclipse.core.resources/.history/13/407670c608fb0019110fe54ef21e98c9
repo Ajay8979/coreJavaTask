@@ -1,0 +1,24 @@
+package com.ojas.question25;
+
+public class ShipmentBO {
+	
+	
+	public void validate(Container container, Commodity[]commodity) throws ContainerOverloadedException {
+		float capaity = 0;
+		int i=0;
+		for(Commodity c    : commodity) {
+			i++;
+			capaity = capaity+c.getQuantity()*c.getTotalWeight();
+			if(capaity>=container.getContainerWeight()) {
+				if(i==container.getCommodities().length)
+				{
+					System.out.format("%-15s%-15s%s\n", "Id","Weight","Quantity");
+					System.out.println(c);
+				}
+				else
+					throw new ContainerOverloadedException();
+					
+			}
+		}
+	}
+}

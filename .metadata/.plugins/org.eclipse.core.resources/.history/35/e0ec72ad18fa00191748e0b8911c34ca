@@ -1,0 +1,7 @@
+package com.ojas.question16;
+
+public class Truck extends GroundTransport {
+	private int sizeOfContainer;
+	
+	
+}

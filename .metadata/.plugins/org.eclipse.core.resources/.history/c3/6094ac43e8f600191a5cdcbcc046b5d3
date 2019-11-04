@@ -1,0 +1,19 @@
+package com.ojas.question5;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class RoleBo {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter number of role :");
+		int n = Integer.valueOf(reader.readLine());
+		int i=1;
+		while(i<=n) {
+			System.out.println("Enter the role "+i+" details :");
+			System.out.println("Enter role name :");
+		}
+		
+	}
+}

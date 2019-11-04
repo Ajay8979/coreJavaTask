@@ -1,0 +1,6 @@
+package com.ojas.question16;
+
+public class Ferries extends WaterTransport {
+	 private String agentName;
+	 
+}

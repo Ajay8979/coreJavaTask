@@ -1,0 +1,9 @@
+package com.ojas.question3;
+
+public class Port {
+	private	Integer id;
+	private	String name;
+	private	String country;
+	
+
+}

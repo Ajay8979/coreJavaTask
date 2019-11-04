@@ -1,0 +1,42 @@
+package com.ojas.question23;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+	
+	
+	public static void main(String[] args){
+		int sum=0;
+		  BufferedReader reader= new BufferedReader(new InputStreamReader(System.in));
+		  System.out.println("Enter the total number of items");
+		  int n=0;
+		try {
+			n = Integer.valueOf(reader.readLine());
+			//throw new NumberFormatException();
+		} catch (NumberFormatException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		  for(int i=0;i<n;i++) {
+			  try {
+				sum=sum+Integer.valueOf(reader.readLine());
+				throw new NumberFormatException();
+			} catch (NumberFormatException e) {
+				// TODO Auto-generated catch block
+				System.out.println("dfkgpi");
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		  }
+		 
+		  
+		 
+	}
+}

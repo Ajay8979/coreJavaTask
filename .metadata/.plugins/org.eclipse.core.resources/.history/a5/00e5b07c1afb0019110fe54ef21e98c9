@@ -1,0 +1,27 @@
+package com.ojas.question20;
+
+public class Shipment {
+	private	int id;
+	private	String name;
+	private	String arrivalPort;
+	private	String departurePort;
+	private	ShipmentStatus status;
+	@Override
+	public String toString() {
+		return "Shipment [id=" + id + ", name=" + name + ", arrivalPort=" + arrivalPort + ", departurePort="
+				+ departurePort + ", status=" + status + "]";
+	}
+	public Shipment(int id, String name, String arrivalPort, String departurePort, ShipmentStatus status) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.arrivalPort = arrivalPort;
+		this.departurePort = departurePort;
+		this.status = status;
+	}
+	public Shipment() {
+		super();
+	}
+	
+
+}

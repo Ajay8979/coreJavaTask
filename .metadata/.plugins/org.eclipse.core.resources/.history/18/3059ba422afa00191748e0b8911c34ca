@@ -1,0 +1,11 @@
+package com.ojas.question16;
+
+public class WaterTransport extends Shipment {
+		private String capacity;
+
+		public WaterTransport(int id, String customerName, String arrivalPort, String departurePort, float weight,
+				String capacity) {
+			super(id, customerName, arrivalPort, departurePort, weight);
+			this.capacity = capacity;
+		}	
+}
